@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Facade</title>
+</head>
+<body>
+
+<header class="header uk-light">
+
+    <div class="header_inner uk-height-1-1 uk-padding uk-background-cover" style="background-image: url('images/dist/headerBg.png')">
+        <div class="container uk-height-1-1">
+            <h1 class="header_title uk-heading-medium uk-text-bold uk-margin-medium-top uk-margin-xlarge-bottom">
+                Алюминиевые витражи, на всякий случай, длинный заголовок
+            </h1>
+            <div class="header_contact uk-flex uk-flex-center uk-child-width-1-2@s uk-flex-middle uk-margin-xlarge-bottom">
+                <div class="header_contact__content uk-flex uk-width-auto uk-flex-column uk-margin-right">
+                    <a href="tel:+7 (495) 179-33-22" class="uk-text-decoration-none uk-h2 uk-text-bold">+7 (495) 179-33-22</a>
+                    <h2 class="uk-margin-remove-bottom uk-margin-remove-top uk-text-left  uk-h4">пн-вс 9:00-21:00</h2>
+                </div>
+                <div class="uk-width-1-5  uk-width-small@l uk-width-small@m uk-width-small@s">
+                    <a class="uk-width-1-1" href="tel:+7 (495) 179-33-22">
+                        <picture><source srcset="images/dist/phone.webp" type="image/webp"><img src="images/dist/phone.png" class="uk-width-1-1" alt=""></picture>
+                    </a>
+                </div>
+            </div>
+            <button class=" uk-align-center">
+                <a href="#request" class="uk-text-decoration-none uk-display-inline-block uk-text-uppercase uk-heading-small" uk-scroll>заказать расчет</a>
+            </button>
+        </div>
+    </div>
+
+</header>
+
+<main class="main">
+    <nav class="nav">
+        <div class="container">
+            <div class="nav_items uk-padding-large uk-padding-remove-horizontal uk-padding-remove-bottom uk-grid-medium"
+                 uk-grid>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#gallery" uk-scroll class="uk-text-decoration-none uk-padding-small  uk-h4 uk-border-rounded">Фотогалерея работ</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#calc" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Калькулятор</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding" >
+                        <a href="#glass" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Виды остекления</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#profiles" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Профили</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#glass_info" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Стекло</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#furniture" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Фурнитура</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#company" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">О компании</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#ques" uk-scroll  class="uk-text-decoration-none uk-h4 uk-padding-small">Вопрос-ответ</a>
+                    </button>
+                </div>
+                <div>
+                    <button class="uk-padding">
+                        <a href="#tarifs" uk-scroll class="uk-text-decoration-none uk-h4 uk-padding-small">Тарифы</a>
+                    </button>
+                </div>
+            </div>
+            <h3 class="uk-h3 uk-text-muted uk-padding uk-padding-remove-top">
+                ГК "Бастион" предлагает полный комплекс услуг по проектированию, монтажу конструкций из стекла на основе
+                алюминиевых профилей. Работаем и с промышленными обьектами (остекление фасадов, входные группы, зенитные
+                фонари) и с частными домами (проектируем и тёплые зимние сады и веранды).
+            </h3>
+        </div>
+    </nav>
+    <section id="gallery" class="gallery uk-padding uk-padding-remove-horizontal">
+        <div class="container">
+            <h2 class="gallery_title uk-padding uk-padding-remove-vertical uk-heading-small">Галерея работ</h2>
+            <div class="gallery_items uk-width-1-1 l uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m  uk-child-width-1-2@s"
+                 uk-grid uk-slideshow="animation: fade">
+                <div>
+                    <ul class="uk-slideshow-items uk-height-1-1">
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li class="uk-height-1-1">
+                            <div class="gallery_items__big uk-height-1-1">
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-display-block uk-height-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="uk-thumbnav gallery_items__nav">
+                        <li uk-slideshow-item="0"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="1"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="2"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="3"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="4"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="5"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="6"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="7"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/headerBg.webp" type="image/webp"><img src="images/dist/headerBg.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                        <li uk-slideshow-item="8"><a href="#" class="uk-display-block uk-height-1-1">
+                            <div class="uk-position-relative uk-height-1-1">
+                            <span class="gallery_icon uk-display-inline-block uk-width-1-2 uk-position-absolute"
+                                  uk-icon="search"></span>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png"  class="uk-width-1-1 uk-height-1-1" alt=""></picture>
+                            </div>
+                        </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="mobileGallery"class="gallery mobile uk-padding uk-padding-remove-horizontal">
+        <div class="container">
+            <h2 class="gallery_title uk-padding uk-padding-remove-vertical uk-heading-small">Галерея работ</h2>
+            <div class="gallery_items uk-width-1-1  uk-child-width-1-1 uk-child-width-1-1@l uk-child-width-1-1@m  uk-child-width-1-1@s">
+
+                    <ul class="gallery_items__images uk-grid-small uk-child-width-1-3 uk-child-width-1-3@l uk-flex-stretch uk-child-width-1-3@m" uk-grid>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                        <li>
+                            <div uk-lightbox class="uk-position-relative">
+                                <a class="uk-position-absolute uk-display-inline-block uk-width-1-1 gallery_icon" href="images/dist/gallery1.png" ><span uk-icon="search"></span></a>
+                                <picture><source srcset="images/dist/gallery1.webp" type="image/webp"><img src="images/dist/gallery1.png" class="uk-width-1-1" alt=""></picture>
+                            </div>
+                        </li>
+                    </ul>
+
+            </div>
+        </div>
+    </section>
+    <section id="calc" class="calc uk-background-cover uk-padding " style="background-image: url('images/dist/calcBg.png')">
+        <div class="container">
+            <div class="uk-light">
+                <h2 class=" uk-padding uk-padding-remove-vertical uk-heading-small">Калькулятор расчета</h2>
+            </div>
+            <form class="">
+                <fieldset class="uk-fieldset">
+                    <div class="uk-align-center uk-margin-large-bottom">
+                        <input class="uk-input uk-width-1-2 uk-width-1-4@m uk-width-1-4@l uk-width-1-4@s uk-align-center" type="text"
+                               placeholder="Введите площадь остекления м2"
+                               aria-label="Введите площадь остекления м2">
+                    </div>
+                    <div class="uk-text-center uk-light">
+                        <h3 class="">Вид здания</h3>
+                    </div>
+                    <div class="uk-flex uk-flex-center uk-margin-large-bottom">
+                        <select class="uk-select uk-form-width-medium" aria-label="Select">
+                            <option>Торговый центр</option>
+                            <option>Торговый центр</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="calc_button uk-heading-small uk-align-center">К расчету</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section id="glass" class="glass uk-padding">
+        <div class="container">
+            <h2 class="glass_title uk-heading-small">Виды остекления</h2>
+            <div class="glass_content">
+                <div class="glass_text">
+                    <div>
+                        <h3 class="uk-h2">Теплые алюминиевые витражи</h3>
+                        <div class="uk-grid-small" uk-grid>
+                            <div class="uk-width-1-1 uk-width-expand@l uk-width-expand@m uk-width-expand@s">
+                                <h4>
+                                    Энергоэффективные витражи с терморазрывом из двухкамерных и трехкамерных алюминиевых
+                                    профилей. Фактически стеклянная стена между улицей и отапливаемым помещением.
+                                </h4>
+                                <h4>
+                                    Они прекрасно пропускают солнечный свет и сохраняют тепло. Практически любой
+                                    стеклянный фасад торгового центра, автосалона, магазина или офисного центра сделан с
+                                    использованием “тёплых” профилей из алюминия. Реже из таких профилей собирают
+                                    большие витражные окна для частных домов и специальные постройки (зимние сады,
+                                    веранды).
+                                </h4>
+                            </div>
+                            <div class="uk-width-1-1 uk-width-1-4@l uk-width-1-4@m uk-width-1-4@s">
+                                <picture><source srcset="images/dist/glass1.webp" type="image/webp"><img src="images/dist/glass1.png" alt=""></picture>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="uk-h2 ">Витражи из холодного профиля</h3>
+                        <div class="uk-grid-small " uk-grid>
+                            <div class="uk-width-1-1 uk-width-expand@l uk-width-expand@m uk-width-expand@s">
+                                <h4 class="uk-margin-large-bottom">
+                                    Витражное остекление однокамерными стеклопакетами без терморазрыва. Такие сооружения
+                                    устанавливают внутри больших помещений и в буферных зонах.
+                                </h4>
+                                <h4>
+                                    В их задачу не входит сохранять тепло, они созданы для внутреннего остекления,
+                                    витражных конструкций, хороши в качестве стен-перегородок, разделяющих пространство.
+                                </h4>
+                            </div>
+                            <div class="uk-width-1-1 uk-width-1-4@l uk-width-1-4@m uk-width-1-4@s">
+                                <picture><source srcset="images/dist/glass2.webp" type="image/webp"><img src="images/dist/glass2.png" alt=""></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="request" class="request uk-padding">
+        <div class="request_content uk-padding uk-background-primary">
+            <div class="container">
+                <div class="uk-light">
+                    <h2 class=" uk-padding-remove-vertical uk-h2">Оставьте заявку на расчет</h2>
+                    <h4>Оставьте свои контакты, мы свяжемся с вами, соберем информацию, составим предварительный расчет
+                        и отправим нашего специалиста к вам на объект.</h4>
+                </div>
+                <form>
+                    <fieldset class="uk-fieldset">
+
+                        <div class="uk-light">
+                            <label class="uk-h4">Ваше имя</label>
+                        </div>
+
+
+                        <div class="uk-margin uk-width-1-1 uk-width-1-2@l uk-width-1-2@m uk-width-1-2@s">
+                            <input class="uk-input uk-padding uk-padding-remove-horizontal" type="text">
+                        </div>
+
+                        <div class="uk-margin uk-width-1-1 uk-width-1-2@l uk-width-1-2@m uk-width-1-2@s">
+                            <input id="inputPhone" class="uk-input uk-padding uk-padding-remove-horizontal"
+                                   placeholder="+7(   )___-__-__" type="text">
+                        </div>
+
+                        <div class="uk-margin-large-top">
+                            <button class="request_button uk-heading-small uk-align-center">Отправить заявку</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="profiles" class="profiles uk-padding">
+        <div class="container">
+            <h2 class="profiles_title uk-heading-small ">Профили</h2>
+            <h3>Мы сотрудничаем с проверенными производителями оконных систем на основе алюминиевого профиля</h3>
+            <div uk-slider class="">
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container ">
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@l uk-child-width-1-5@m uk-child-width-1-3@s ">
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alumark
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alutech
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alumark
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alutech
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alumark
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <picture><source srcset="images/dist/profiles1.webp" type="image/webp"><img src="images/dist/profiles1.png" class="uk-width-1-1" alt=""></picture>
+                                    <div class="uk-text-center">
+                                        <a class="uk-link uk-h2 uk-text-primary" href="#">
+                                            Alutech
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="uk-hidden@s">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                           uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous
+                           uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="glass_info" class="glass_info">
+        <div class="container">
+            <h2 class="glass_info__title uk-heading-small">Стекло</h2>
+            <div class="glass_info__items uk-flex uk-flex-wrap uk-flex-between uk-child-width-1-2@l  uk-child-width-1-2@m uk-child-width-1-2@ uk-child-width-1-1">
+                <div class="glass_info__item uk-margin-large-bottom uk-padding-small  uk-background-cover uk-light"
+                     style="background-image: url('images/dist/glass_info1.png')">
+                    <h3 class="uk-h1 uk-text-center uk-margin-large-top">Листовое флоат стекло</h3>
+                    <h4 class="uk-margin-large-bottom">Базовый вид строительного стекла для архитектуры и строительства.Большинство конструктивных
+                        изделий и конструкций в архитектуре и строительстве выполнены на основе листового флоат стекла и
+                        его разновидностей.</h4>
+                </div>
+                <div class="glass_info__item uk-padding-small uk-margin-large-bottom uk-background-cover uk-light"
+                     style="background-image: url('images/dist/glass_info2.png')">
+                    <h3 class="uk-h1 uk-text-center uk-margin-large-top">Стекло большого формата</h3>
+                    <h4 class="uk-margin-large-bottom">Базовый вид строительного стекла для архитектуры и строительства.Большинство конструктивных
+                        изделий и конструкций в архитектуре и строительстве выполнены на основе листового флоат стекла и
+                        его разновидностей.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="furniture" class="furniture uk-padding">
+        <div class="container">
+            <h2 class="profiles_title uk-heading-small ">Фурнитура</h2>
+            <h3>Створки</h3>
+            <div uk-slider class="">
+
+                <div class="uk-position-relative">
+
+                    <div class="uk-slider-container ">
+                        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s ">
+                            <li>
+                                <div class='uk-flex uk-flex-wrap uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s'>
+                                    <div>
+                                        <h4>
+                                            Поворотные, откидные и поворотно-откидные механизмы фурнитуры, всего около
+                                            50 различных
+                                            видов элементов крепления и открытия окон и дверей. Основу здесь составляют
+                                            петли
+                                            (наружные и скрытые), запорные элементы и системы открытия, например,
+                                            ножницы для поворотно-откидных
+                                            систем.
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <picture><source srcset="images/dist/furniture.webp" type="image/webp"><img src="images/dist/furniture.png" class="uk-width-1-1" alt=""></picture>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='uk-flex uk-flex-wrap uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s'>
+                                    <div>
+                                        <h4>
+                                            Поворотные, откидные и поворотно-откидные механизмы фурнитуры, всего около
+                                            50 различных
+                                            видов элементов крепления и открытия окон и дверей. Основу здесь составляют
+                                            петли
+                                            (наружные и скрытые), запорные элементы и системы открытия, например,
+                                            ножницы для поворотно-откидных
+                                            систем.
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <picture><source srcset="images/dist/furniture.webp" type="image/webp"><img src="images/dist/furniture.png" class="uk-width-1-1" alt=""></picture>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='uk-flex uk-flex-wrap uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s'>
+                                    <div>
+                                        <h4>
+                                            Поворотные, откидные и поворотно-откидные механизмы фурнитуры, всего около
+                                            50 различных
+                                            видов элементов крепления и открытия окон и дверей. Основу здесь составляют
+                                            петли
+                                            (наружные и скрытые), запорные элементы и системы открытия, например,
+                                            ножницы для поворотно-откидных
+                                            систем.
+                                        </h4>
+                                    </div>
+                                    <div>
+                                        <picture><source srcset="images/dist/furniture.webp" type="image/webp"><img src="images/dist/furniture.png" class="uk-width-1-1" alt=""></picture>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="uk-hidden@s">
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                           uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a>
+                    </div>
+
+                    <div class="uk-visible@s">
+                        <a class="uk-position-center-left-out uk-position-small" href="#" uk-slidenav-previous
+                           uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right-out uk-position-small" href="#" uk-slidenav-next
+                           uk-slider-item="next"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="call" class="call">
+        <div class="container">
+            <div class="request_content uk-padding uk-background-primary">
+                <div class="container">
+                    <div class="uk-light">
+                        <h2 class=" uk-padding-remove-vertical uk-h2">Вам перезвонить?</h2>
+                        <h4>Закажите обратный звонок и наши специалисты свяжутся с вами в течение ближайшего времени и
+                            помогут произвести точный расчет вашего фасада.</h4>
+                    </div>
+                    <button class="request_button uk-heading-small uk-align-center"  uk-toggle="target: #call-modal">Перезвоните мне</button>
+                    <div id="call-modal" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <div >
+                                <h2 class=" uk-padding-remove-vertical uk-h1">Оставьте заявку на расчет</h2>
+                            </div>
+                            <form>
+                                <fieldset class="uk-fieldset">
+
+                                    <div >
+                                        <label class="uk-h4">Ваше имя</label>
+                                    </div>
+
+
+                                    <div class="uk-margin uk-margin-remove-top uk-width-1-1">
+                                        <input class="uk-input uk-padding uk-padding-remove-horizontal" type="text">
+                                    </div>
+
+                                    <div class="uk-margin uk-width-1-1">
+                                        <input id="inputModalPhone" class="uk-input uk-padding uk-padding-remove-horizontal"
+                                               placeholder="+7(   )___-__-__" type="text">
+                                    </div>
+
+                                    <div class="uk-margin-large-top">
+                                        <button class="request_button uk-heading-small uk-align-center" type="submit"> Отправить заявку</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="company" class="company uk-padding">
+        <div class="container">
+            <h2 class="profiles_title uk-heading-small ">О компании</h2>
+            <div>
+                <iframe src="https://www.youtube.com/embed/2aIBnrjgzM4" width="1920" height="1080" allowfullscreen
+                        uk-responsive uk-video="automute: true"></iframe>
+            </div>
+            <div id="ques" class="company_items uk-margin-large-top uk-grid-medium uk-child-width-1-1 uk-child-width-1-2@l uk-child-width-1-2@m uk-child-width-1-2@s "
+                 uk-grid>
+                <div class="company_item uk-flex uk-flex-middle">
+                    <picture><source srcset="images/dist/company1.webp" type="image/webp"><img src="images/dist/company1.png" alt=""></picture>
+                    <h3 class="uk-margin-remove ">Занимаемся фасадами с 2007 года</h3>
+                </div>
+                <div class="company_item uk-flex uk-flex-middle">
+                    <picture><source srcset="images/dist/company1.webp" type="image/webp"><img src="images/dist/company1.png" alt=""></picture>
+                    <h3 class="uk-margin-remove">Работаем 24 часа в сутки 7 дней в неделю</h3>
+                </div>
+                <div class="company_item uk-flex uk-flex-middle">
+                    <picture><source srcset="images/dist/company2.webp" type="image/webp"><img src="images/dist/company2.png" alt=""></picture>
+                    <h3 class="uk-margin-remove">Со всеми видами фасадных материалов</h3>
+                </div>
+                <div class="company_item uk-flex uk-flex-middle">
+                    <picture><source srcset="images/dist/company3.webp" type="image/webp"><img src="images/dist/company3.png" alt=""></picture>
+                    <h3 class="uk-margin-remove">Сертифицированные мастера со стажем более 3 лет</h3>
+                </div>
+                <div class="company_item uk-flex uk-flex-middle">
+                    <picture><source srcset="images/dist/company4.webp" type="image/webp"><img src="images/dist/company4.png" alt=""></picture>
+                    <h3 class="uk-margin-remove">Выполняем заказы любых объёмов</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tarifs" class="tarifs uk-padding">
+        <div class="container">
+            <h2 class="profiles_title uk-heading-small uk-margin-large-bottom">Тарифы</h2>
+            <div class="tarifs_items uk-flex uk-flex-column ">
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка без утепления (подсистема: оцинкованная сталь)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка с утеплением 50мм (подсистема: оцинкованная сталь)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка с утеплением 100мм (подсистема: оцинкованная сталь)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка без утепления (подсистема: алюминий)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка с утеплением 50мм (подсистема: алюминий)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+                <div class="tarif_item uk-flex uk-flex-between uk-flex-middle uk-margin-medium-bottom">
+                    <div class="uk-width-expand">
+                        <h4>Облицовка с утеплением 100мм (подсистема: алюминий)</h4>
+                    </div>
+                    <div class="uk-width-auto">
+                        <h4 class="uk-text-success">3800 руб/м2</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer">
+
+
+
+    </footer>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
