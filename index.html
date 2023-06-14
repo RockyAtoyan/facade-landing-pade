@@ -18,15 +18,25 @@
         <div class="uk-container uk-container-large uk-flex uk-flex-column uk-flex-between uk-flex-center@l uk-flex-center@m uk-flex-center@s uk-height-1-1">
             <div class="uk-light">
                 <h1 class="header_title uk-heading-medium  uk-text-bold uk-margin-medium-top uk-margin-xlarge-bottom">
-                    Алюминиевые витражи, на всякий случай, длинный заголовок
+                    Алюминиевые витражи
                 </h1>
             </div>
-            <div class="header_contact uk-light uk-flex uk-flex-column uk-flex-center uk-child-width-1-1@s uk-flex-middle uk-margin-xlarge-bottom">
-                <div class="header_contact__content uk-flex uk-width-auto uk-flex-middle uk-flex-center">
-                    <a href="tel:+7 (495) 179-33-22" class="uk-text-decoration-none uk-margin-remove-bottom uk-h2 uk-text-bold">+7 (495) 179-33-22</a>
-                    <div class="uk-width-1-5 uk-margin-large-left uk-width-small@l uk-width-small@m uk-width-small@s">
+            <div class="header_contact uk-light uk-flex uk-flex-column uk-child-width-1-1@s uk-flex-middle">
+                <div class="header_contact__content uk-flex uk-width-auto uk-flex-wrap uk-flex-center uk-flex-middle ">
+                    <div class="uk-width-1-5 uk-width-auto@l uk-width-auto@m uk-width-auto@s uk-visible@s">
+                        <a href="tel:+7 (495) 179-33-22" class="uk-text-decoration-none uk-text-nowrap uk-margin-remove-bottom uk-h2 uk-text-bold">+7 (495) 179-33-22</a>
+                    </div>
+                     <div class="uk-width-1-2 uk-margin-medium-left uk-width-small@l uk-width-small@m uk-width-small@s uk-visible@s">
                         <a href="tel:+7 (495) 179-33-22">
-                            <picture><source srcset="images/dist/phone.webp" type="image/webp"><img src="images/dist/phone.png" class="uk-width-3-4" alt=""></picture>
+                            <img src="images/dist/whatsapp.svg" class="uk-width-3-4 uk-width-3-4@l uk-width-3-4@m uk-width-3-4@s" alt="">
+                        </a>
+                    </div>
+                    <div class="uk-width-1-1 uk-width-auto@l uk-margin-small-bottom uk-text-center uk-width-auto@m uk-width-auto@s uk-hidden@s ">
+                        <a href="tel:+7 (495) 179-33-22" class="uk-text-decoration-none uk-text-nowrap uk-h2 uk-text-bold">+7 (495) 179-33-22</a>
+                    </div>
+                    <div class="uk-width-3-4 uk-width-small@l uk-width-small@m uk-width-small@s uk-hidden@s">
+                        <a href="tel:+7 (495) 179-33-22">
+                            <img src="images/dist/whatsapp.svg" class="uk-width-3-4 uk-align-center uk-width-3-4@l uk-width-3-4@m uk-width-3-4@s" alt="">
                         </a>
                     </div>
                 </div>
@@ -34,12 +44,16 @@
                     <h2 class="uk-margin-remove-bottom uk-text-left uk-h3">пн-вс 9:00-21:00</h2>
                 </div>
             </div>
-            <div >
+            <div class="uk-margin-xlarge-top uk-visible@s">
                 <button class="uk-align-center">
                     <a href="#request" class="uk-button uk-button-primary uk-text-bold uk-button-large " uk-scroll>заказать расчет</a>
                 </button>
             </div>
-
+            <div class="uk-margin-medium-top uk-hidden@s">
+                <button class="uk-align-center">
+                    <a href="#request" class="uk-button uk-button-primary uk-text-bold uk-button-large " uk-scroll>заказать расчет</a>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -387,8 +401,8 @@
             </form>
             <div id="calc-first-modal" class="uk-flex-top" uk-modal>
                 <div class="uk-modal-dialog  uk-modal-body uk-margin-auto-vertical">
-                    <button class="uk-modal-close-default" type="button" uk-close></button>
-                    <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover"
+                    <button class="uk-modal-close-default uk-close-large" type="button" uk-close></button>
+                    <div class="uk-height-small uk-margin-small-top uk-flex uk-flex-center uk-flex-middle uk-background-cover"
                          data-src="images/dist/calc1.png" uk-img>
                         <button class="uk-button uk-width-1-1 uk-align-center uk-margin-remove uk-button-danger"
                                 uk-toggle="target: #calc-glass-modal">Остекление фасада
@@ -418,9 +432,9 @@
                         <div class="uk-light">
                             <h2 class="uk-padding-small uk-text-center uk-h2 ">Технология остекления</h2>
                         </div>
-                        <div class="glass_modal__items uk-light uk-child-width-1-2 uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-3@s"
+                        <div class="glass_modal__items uk-text-nowrap uk-light uk-child-width-1-2 uk-child-width-1-3@l uk-child-width-1-3@m uk-child-width-1-3@s"
                              uk-grid>
-                            <div class="glass_modal__item uk-padding">
+                            <div class="glass_modal__item uk-light uk-padding">
                                 <h3>Структурная</h3>
                                 <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img src="images/dist/modal1.png" alt=""></picture>
                                 <h4>
@@ -429,40 +443,40 @@
                                 </h4>
                             </div>
                             <div class="glass_modal__item uk-padding">
-                                <h3>Структурная</h3>
-                                <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img src="images/dist/modal1.png" alt=""></picture>
+                                <h3>Стоечно-ригельная</h3>
+                                <picture><source srcset="images/dist/modal2.webp" type="image/webp"><img src="images/dist/modal2.png" alt=""></picture>
                                 <h4>
                                     <span>от 3456 </span>
                                     <span>руб/м2</span>
                                 </h4>
                             </div>
                             <div class="glass_modal__item uk-padding">
-                                <h3>Структурная</h3>
-                                <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img src="images/dist/modal1.png" alt=""></picture>
+                                <h3>Спайдерная</h3>
+                                <picture><source srcset="images/dist/modal3.webp" type="image/webp"><img src="images/dist/modal3.png" alt=""></picture>
                                 <h4>
                                     <span>от 3456 </span>
                                     <span>руб/м2</span>
                                 </h4>
                             </div>
                             <div class="glass_modal__item uk-padding">
-                                <h3>Структурная</h3>
-                                <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img src="images/dist/modal1.png" alt=""></picture>
+                                <h3>Вантовая</h3>
+                                <picture><source srcset="images/dist/modal4.webp" type="image/webp"><img src="images/dist/modal4.png" alt=""></picture>
                                 <h4>
                                     <span>от 3456 </span>
                                     <span>руб/м2</span>
                                 </h4>
                             </div>
                             <div class="glass_modal__item uk-padding">
-                                <h3>Структурная</h3>
-                                <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img src="images/dist/modal1.png" alt=""></picture>
+                                <h3>Модульная</h3>
+                                <picture><source srcset="images/dist/modal5.webp" type="image/webp"><img src="images/dist/modal5.png" alt=""></picture>
                                 <h4>
                                     <span>от 3456 </span>
                                     <span>руб/м2</span>
                                 </h4>
                             </div>
                             <div class="glass_modal__item uk-padding">
-                                <h3>Структурная</h3>
-                                <picture><source srcset="images/dist/modal1.webp" type="image/webp"><img class="uk-align-center" src="images/dist/modal1.png" alt=""></picture>
+                                <h3>Полуструктурная</h3>
+                                <picture><source srcset="images/dist/modal6.webp" type="image/webp"><img class="uk-align-center" src="images/dist/modal6.png" alt=""></picture>
                                 <h4>
                                     <span>от 3456 </span>
                                     <span>руб/м2</span>
@@ -1132,7 +1146,7 @@
                  uk-grid>
                 <div class="company_item uk-flex uk-flex-wrap uk-flex-center uk-flex-middle">
                     <div class="uk-width-1-6 ">
-                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company1.png"
+                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company5.png"
                              alt="">
                     </div>
                     <div class="uk-width-expand uk-text-center">
@@ -1141,7 +1155,7 @@
                 </div>
                 <div class="company_item uk-flex uk-flex-wrap uk-flex-center uk-flex-middle">
                     <div class="uk-width-1-6">
-                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company1.png"
+                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company3.png"
                              alt="">
                     </div>
                     <div class="uk-width-expand uk-text-center">
@@ -1150,7 +1164,7 @@
                 </div>
                 <div class="company_item uk-flex uk-flex-wrap uk-flex-center uk-flex-middle">
                     <div class="uk-width-1-6 ">
-                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company2.png"
+                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company1.png"
                              alt="">
                     </div>
                     <div class="uk-width-expand uk-text-center">
@@ -1159,7 +1173,7 @@
                 </div>
                 <div class="company_item uk-flex uk-flex-wrap uk-flex-center uk-flex-middle">
                     <div class=" uk-width-1-6 ">
-                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company3.png"
+                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company4.png"
                              alt="">
                     </div>
                     <div class="uk-width-expand uk-text-center">
@@ -1168,7 +1182,7 @@
                 </div>
                 <div class="company_item uk-flex uk-flex-wrap uk-flex-center uk-flex-middle">
                     <div class="uk-width-1-6 ">
-                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company4.png"
+                        <img class="uk-align-center uk-width-1-1 uk-margin-remove" src="images/dist/company2.png"
                              alt="">
                     </div>
                     <div class="uk-width-expand uk-text-center">
