@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<header class="header">
+<header class="header" id="header">
 
     <div class="header_inner uk-height-1-1 uk-padding uk-background-cover " style="background-image: url('images/dist/headerBg.png')">
         <div class="uk-container uk-container-large uk-flex uk-flex-column uk-flex-between uk-flex-center@l uk-flex-center@m uk-flex-center@s uk-height-1-1">
@@ -542,7 +542,7 @@
                         </div>
                         <ul class="uk-width-1-1 uk-flex light_modal__items uk-flex-center"
                             uk-switcher="animation: uk-animation-fade">
-                            <li><a class="uk-button uk-button-danger" href="#">Теплый</a></li>
+                            <li><a class="uk-button  uk-button-danger" href="#">Теплый</a></li>
                             <li><a class="uk-button uk-button-primary" href="#">Холодный</a></li>
                         </ul>
 
@@ -879,7 +879,7 @@
                         </div>
 
                         <div class="uk-margin-large-top">
-                            <button class="request_button uk-button uk-button-danger uk-text-bold uk-button-large uk-align-center">
+                            <button class="request_button  uk-button uk-button-danger uk-text-bold uk-button-large uk-align-center">
                                 Отправить заявку
                             </button>
                         </div>
@@ -1248,15 +1248,12 @@
         </div>
     </section>
 </main>
-
+<a class="uk-button uk-button-secondary uk-margin uk-margin-small-right uk-visible@s uk-position-fixed uk-position-bottom-right" href="#header" uk-scroll>
+    <span uk-icon="icon: chevron-up; ratio: 1.5"></span>
+</a>
     <footer class="footer">
 
-
-
     </footer>
-
     <script src="js/main.min.js"></script>
-
 </body>
-
 </html>
